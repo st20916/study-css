@@ -1,0 +1,19 @@
+.logo {
+	position: relative;
+	height: 5rem;
+	background-color: #333333;
+
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: inherit;
+		font-size: 2rem;
+		font-weight: 600;
+		color: #ffffff;
+	}
+}
+
+.content {
+	height: calc(100vh - 5rem);
+}
