@@ -7,8 +7,12 @@ import MainStyle from '../styles/Main.module.scss';
 const MainGrid = styled.div`
 	position: relative;
 	display: grid;
-	grid-template-columns: 25rem auto;
-	height: 100vh;
+	grid-template-columns: 100%;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 25rem auto;
+    height: 100vh;
+  }
 `;
 
 const SideMenu = styled.aside`

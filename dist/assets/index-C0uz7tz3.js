@@ -83,8 +83,12 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
 `,op=()=>st.jsx("div",{className:fp.menu__area,children:st.jsx("nav",{children:st.jsxs(rp,{children:[st.jsx("li",{children:st.jsx(cn,{to:"/position",children:"Position"})}),st.jsx("li",{children:st.jsx(cn,{to:"/display",children:"Display"})})]})})}),sp="_logo_15gm0_1",dp="_content_15gm0_16",sm={logo:sp,content:dp},hp=tu.div`
 	position: relative;
 	display: grid;
-	grid-template-columns: 25rem auto;
-	height: 100vh;
+	grid-template-columns: 100%;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 25rem auto;
+    height: 100vh;
+  }
 `,mp=tu.aside`
 	box-shadow: 0 3px 12px rgba(0, 0, 0, .16);
 `,yp=tu.div`
