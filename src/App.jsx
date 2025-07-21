@@ -5,7 +5,7 @@ import Display from './components/menu/Display'
 
 const EmptyContent = () => {
 	return (
-		<h1>테스트</h1>
+		<h1></h1>
 	)
 }
 
