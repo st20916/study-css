@@ -80,7 +80,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
 			font-weight: 600;
 		}
 	}
-`,sp=()=>W.jsx("div",{className:rp.menu__area,children:W.jsx("nav",{children:W.jsxs(op,{children:[W.jsx("li",{children:W.jsx(fu,{to:"/position",children:"Position"})}),W.jsx("li",{children:W.jsx(fu,{to:"/display",children:"Display"})})]})})}),dp="_logo_7fckc_1",hp="_content_7fckc_17",dm={logo:dp,content:hp},mp=en.div`
+`,sp=()=>W.jsx("div",{className:rp.menu__area,children:W.jsx("nav",{children:W.jsxs(op,{children:[W.jsx("li",{children:W.jsx(fu,{to:"/position",children:"Position"})}),W.jsx("li",{children:W.jsx(fu,{to:"/display",children:"Display"})})]})})}),dp="_logo_9fe24_1",hp="_content_9fe24_16",dm={logo:dp,content:hp},mp=en.div`
 	position: relative;
 	display: grid;
 	grid-template-columns: 100%;
