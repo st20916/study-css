@@ -79,13 +79,34 @@
 			position: static;
 		}
 
+		&[data-attr="flex"] {
+			display: flex;
+			width: auto;
+			height: auto;
+
+			> div {
+				width: auto;
+				height: auto;
+			}
+
+			&[data-flex-direction="column"] {
+				flex-direction: column;
+
+				> div {
+					max-width: 20rem;
+					height: 5rem;
+					line-height: 5rem;
+				}
+			}
+		}
+
 		&:nth-child(2n) {
 			background-color: #00ffff;
 		}
 	}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
 	.explain__grid {
 		display: grid;
 		grid-template-columns: 35rem auto;
